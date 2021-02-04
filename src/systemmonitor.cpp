@@ -63,7 +63,7 @@ SystemMonitor::SystemMonitor(QWidget *parent)
     this->setObjectName("SystemMonitor");
 
     this->setWindowFlags(Qt::FramelessWindowHint);   //set for no windowhint
-    this->setAttribute(Qt::WA_TranslucentBackground);//背景透明
+    // this->setAttribute(Qt::WA_TranslucentBackground);//背景透明
     this->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
     const QByteArray idd(THEME_QT_SCHEMA);
 

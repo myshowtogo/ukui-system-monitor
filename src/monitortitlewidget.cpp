@@ -47,7 +47,7 @@ MonitorTitleWidget::MonitorTitleWidget(QSettings *settings, QWidget *parent)
     ,qtSettings(nullptr)
 {
     m_animation = nullptr;
-    this->setAttribute(Qt::WA_TranslucentBackground);
+    // this->setAttribute(Qt::WA_TranslucentBackground);
     m_queryIcon=new QLabel();
     QIcon queryIcon;
     queryIcon = QIcon::fromTheme("preferences-system-search-symbolic");

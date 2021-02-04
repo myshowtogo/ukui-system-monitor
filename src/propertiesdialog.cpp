@@ -44,7 +44,7 @@ PropertiesDialog::PropertiesDialog(QWidget *parent, pid_t processId) : QDialog(p
     this->setWindowFlags(this->windowFlags() | Qt::FramelessWindowHint/*  | Qt::WindowCloseButtonHint*/| Qt::WindowStaysOnTopHint);
 //    this->setWindowFlags(Qt::Window | Qt::FramelessWindowHint | Qt::WindowMinimizeButtonHint);//Attention: Qt::WindowCloseButtonHint make showMinimized() valid
 
-    this->setAttribute(Qt::WA_TranslucentBackground);
+    // this->setAttribute(Qt::WA_TranslucentBackground);
     this->setAttribute(Qt::WA_Resized, false);
 //    this->setMaximumSize(480, 600);
 //    this->setMinimumWidth(320);
